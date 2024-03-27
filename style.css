@@ -1,0 +1,156 @@
+header{
+    height: 50px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header:hover{
+    background-color:green;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+.btn{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+.fb:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-bottom: 5px solid skyblue;
+    border-right: 5px solid skyblue;
+    cursor: pointer;
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+}
+.fb:active{
+    background-color: skyblue;
+    transition: 1s;
+}
+.wa{
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.wa:hover{
+    background-color: rgba(27, 71, 27, 0.741);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-top: 5px solid rgba(172, 255, 47, 0.611);
+    border-left: 5px solid rgba(172, 255, 47, 0.611);
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+}
+.wa:active{
+    background-color: green;
+    width: 300px;
+    height: 50px;
+}
+.tw{
+    background-color: rgb(19, 71, 127);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.tw:hover{
+    background-color: rgb(21, 2, 118);
+    border: 3px double gray;
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+}
+.tw:active{
+    font-size: small;
+    width: 100px;
+    height:50px;
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+}
+.ig{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.ig:hover{
+    box-shadow: 5px 5px 10px rgba(237, 55, 55, 0.707);
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    -webkit-text-stroke: 1px rgba(6, 6, 6, 0.484);
+    font-size: 40px;
+}
+.te{
+    background-color: skyblue;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+.te:hover{
+    background-color: aquamarine;
+    transition: 5s;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+}
+.te:active{
+    display: none;
+}
+.ln{
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+.ln:hover{
+    width: 150px;
+    transition: 2s;
+    box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.50);
+    background-color: black;
+    text-shadow: 2px 2px 4px white;
+    color: white;
+    transition: 2s;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+}
+.ln:active{
+    text-shadow: 2px 2px 4px black;
+    background-color: red;
+    color: white;
+    transition: 1s;
+    cursor: not-allowed;
+}
